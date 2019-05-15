@@ -27,12 +27,8 @@ public class SortByHeightSkipTree {
         Iterator it = b.iterator();
 
         for (int i = 0; i < a.length; i++) {
-
             if(a[i] != -1) a[i] = (int) it.next();
-
         }
-
         return a;
-
     }
 }
